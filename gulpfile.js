@@ -22,6 +22,17 @@ import { sprite } from "./gulp/tasks/sprite.js";
 import { favicon } from "./gulp/tasks/favicon.js";
 import { scripts } from "./gulp/tasks/scripts.js";
 
+const watcher = () => {
+	gulp.watch(paths.html.watch, html);
+	gulp.watch(paths.css.watch, css);
+	gulp.watch(paths.images.watch, images);
+	gulp.watch(paths.fonts.watch, fonts);
+	gulp.watch(paths.files.watch, files);
+	gulp.watch(paths.sprite.watch, sprite);
+	gulp.watch(paths.favicon.watch, favicon);
+	gulp.watch(paths.scripts.watch, scripts);
+};
+
 const build = gulp.series(
     reset,
     gulp.parallel(html, css, fonts, images, files, sprite, favicon, scripts)
@@ -29,7 +40,7 @@ const build = gulp.series(
 
 const dev = gulp.series(
     build,
-    gulp.parallel(server)
+    gulp.parallel(server, watcher)
 );
 
 export {

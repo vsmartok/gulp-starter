@@ -28,6 +28,8 @@
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-html-beautify": "^1.0.1",
     "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-newer": "^1.4.0",
     "gulp-notify": "^4.0.0",
     "gulp-plumber": "^1.2.1",
     "gulp-replace": "^1.1.4",
@@ -36,6 +38,7 @@
     "gulp-ttf2woff": "^1.1.1",
     "gulp-ttf2woff2": "^4.0.1",
     "gulp-version-number": "^0.2.4",
+    "gulp-webp": "^5.0.0",
     "sass": "^1.77.8"
   }
 }

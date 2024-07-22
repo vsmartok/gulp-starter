@@ -14,6 +14,11 @@ export const paths = {
         dest: "./build/fonts",
         watch: "./src/fonts/**/*.ttf",
     },
+    images: { 
+        src: "./src/img/**/*.{jpg,jpeg,png,gif,svg,webp}",
+        dest: "./build/img",
+        watch: "./src/img/**/*.{jpg,jpeg,png,gif,svg,webp}",
+    },
     clean: "./build",
     build: "./build",
     version: "./gulp/version.json",

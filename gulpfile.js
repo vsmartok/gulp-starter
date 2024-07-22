@@ -19,10 +19,11 @@ import { fonts } from "./gulp/tasks/fonts.js";
 import { images } from "./gulp/tasks/images.js";
 import { files } from "./gulp/tasks/files.js";
 import { sprite } from "./gulp/tasks/sprite.js";
+import { favicon } from "./gulp/tasks/favicon.js";
 
 const build = gulp.series(
     reset,
-    gulp.parallel(html, css, fonts, images, files, sprite)
+    gulp.parallel(html, css, fonts, images, files, sprite, favicon)
 );
 
 const dev = gulp.series(

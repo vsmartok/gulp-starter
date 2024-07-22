@@ -1,3 +1,4 @@
 node_modules
 build
+gulp/version.json
 package-lock.json

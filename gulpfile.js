@@ -8,3 +8,13 @@ global.app = {
     paths,
     plugins,
 };
+
+import { reset } from "./gulp/tasks/reset.js";
+
+const build = gulp.series(
+    reset
+);
+
+export {
+    build
+}

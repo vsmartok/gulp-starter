@@ -1,1 +1,3 @@
-export const paths = {};
+export const paths = {
+    clean: "./build",
+};

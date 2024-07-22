@@ -17,10 +17,11 @@ import { html } from "./gulp/tasks/html.js";
 import { css } from "./gulp/tasks/css.js";
 import { fonts } from "./gulp/tasks/fonts.js";
 import { images } from "./gulp/tasks/images.js";
+import { files } from "./gulp/tasks/files.js";
 
 const build = gulp.series(
     reset,
-    gulp.parallel(html, css, fonts, images)
+    gulp.parallel(html, css, fonts, images, files)
 );
 
 const dev = gulp.series(

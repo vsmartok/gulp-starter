@@ -19,6 +19,11 @@ export const paths = {
         dest: "./build/img",
         watch: "./src/img/**/*.{jpg,jpeg,png,gif,svg,webp}",
     },
+    files: {
+        src: "./src/files/**/*",
+        dest: "./build/files",
+        watch: "./src/files/**/*",
+    },
     clean: "./build",
     build: "./build",
     version: "./gulp/version.json",

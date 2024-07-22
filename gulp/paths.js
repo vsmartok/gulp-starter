@@ -34,6 +34,11 @@ export const paths = {
         dest: "./build/img/favicon",
         watch: "./src/favicon/*.ico"
     },
+    scripts: {
+        src: "./src/js/*.js",
+        dest: "./build/js",
+        watch: "./src/js/**/*.js",
+    },
     clean: "./build",
     build: "./build",
     version: "./gulp/version.json",

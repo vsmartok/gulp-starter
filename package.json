@@ -16,5 +16,8 @@
     "url": "https://github.com/vsmartok/gulp-starter/issues"
   },
   "homepage": "https://github.com/vsmartok/gulp-starter#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }

@@ -1,0 +1,20 @@
+{
+  "name": "gulp-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsmartok/gulp-starter.git"
+  },
+  "author": "Sergei Skorobagatko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsmartok/gulp-starter/issues"
+  },
+  "homepage": "https://github.com/vsmartok/gulp-starter#readme",
+  "description": ""
+}

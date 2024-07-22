@@ -10,11 +10,18 @@ global.app = {
 };
 
 import { reset } from "./gulp/tasks/reset.js";
+import { server } from "./gulp/tasks/server.js";
 
 const build = gulp.series(
     reset
 );
 
+const dev = gulp.series(
+    build,
+    gulp.parallel(server)
+);
+
 export {
-    build
+    build,
+    dev
 }

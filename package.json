@@ -4,7 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "gulp build --build"
+    "build": "gulp build --build",
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/vsmartok/gulp-starter#readme",
   "description": "",
   "devDependencies": {
+    "browser-sync": "^3.0.2",
     "del": "^7.1.0",
     "gulp": "^4.0.2"
   }

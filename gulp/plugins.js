@@ -1,1 +1,5 @@
-export const plugins = {};
+import browserSync from "browser-sync";
+
+export const plugins = {
+    browserSync,
+};

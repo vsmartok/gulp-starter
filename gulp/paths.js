@@ -9,6 +9,11 @@ export const paths = {
 		dest: "./build/css",
 		watch: "./src/css/**/*.{sass,scss,css}",
 	},
+    fonts: {
+        src: "./src/fonts/**/*.ttf",
+        dest: "./build/fonts",
+        watch: "./src/fonts/**/*.ttf",
+    },
     clean: "./build",
     build: "./build",
     version: "./gulp/version.json",

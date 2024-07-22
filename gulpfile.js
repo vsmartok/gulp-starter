@@ -13,10 +13,11 @@ import { reset } from "./gulp/tasks/reset.js";
 import { server } from "./gulp/tasks/server.js";
 import { html } from "./gulp/tasks/html.js";
 import { css } from "./gulp/tasks/css.js";
+import { fonts } from "./gulp/tasks/fonts.js";
 
 const build = gulp.series(
     reset,
-    gulp.parallel(html, css)
+    gulp.parallel(html, css, fonts)
 );
 
 const dev = gulp.series(
